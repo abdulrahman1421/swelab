@@ -18,7 +18,7 @@ public class Sorter{
             numArray[i] = temp; 
         } 
     } 
-}
+
     public static void sortInsertion(int [] sort_arr){
 
         for(int i=0;i<sort_arr.length;++i){
@@ -34,5 +34,9 @@ public class Sorter{
   
           }
         }
+      }
+
+      public static void sort(int array[]){
+        sortInsertion(array);
       }
 }
