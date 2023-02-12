@@ -18,4 +18,8 @@ public class Sorter{
             numArray[i] = temp; 
         } 
     } 
+
+    public static void sort(int array[]){
+        sel_sort(array);
+    }
 }
